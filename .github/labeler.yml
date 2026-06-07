@@ -1,0 +1,10 @@
+# Labeler configuration
+labels:
+  - name: formula
+    pattern: ["Formula/**"]
+  - name: documentation
+    pattern: ["*.md"]
+  - name: ci/cd
+    pattern: [".github/**"]
+
+only: PRs

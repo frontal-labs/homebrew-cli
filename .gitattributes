@@ -1,0 +1,20 @@
+# Auto detect text files and perform LF normalization
+* text=auto eol=lf
+
+# Ruby files
+*.rb text eol=lf
+
+# Documentation
+*.md text eol=lf
+*.txt text eol=lf
+
+# Configuration
+*.yml text eol=lf
+*.yaml text eol=lf
+*.json text eol=lf
+*.toml text eol=lf
+
+# Binary
+*.png binary
+*.jpg binary
+*.svg binary
